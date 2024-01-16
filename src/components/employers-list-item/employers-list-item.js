@@ -18,7 +18,10 @@ const EmployersListItem = (props) =>  {
 
         return (
             <li className= {classNames}>
-            <span onClick={onToogleRise}  className="list-group-item-label" data-toggle="rise">{name}</span>
+            <span onClick={onToogleRise} 
+            className="list-group-item-label" 
+            data-toggle="rise"
+            >{name}</span>
             <input type="text" className="list-group-item-input" defaultValue={salary + "$"}/>
             <div className='d-flex justify-content-center align-items-center'>
                 <button type="button"
@@ -42,4 +45,3 @@ const EmployersListItem = (props) =>  {
 
 export default EmployersListItem;
 
-//= ({name, salary, increase}) =>

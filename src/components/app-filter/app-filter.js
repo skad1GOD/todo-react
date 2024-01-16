@@ -33,25 +33,3 @@ const AppFilter = (props) => {
 
 export default AppFilter;
 
-/* при кліку на кнопку вибивало чи він йде на повишення і зп більше ніж 1000 баксів
-я думаю це робитсья так ми пишимо методи дад інкріс і дата саларі і по ним вже писати лоігку 
-і передавати у верс стейт     upforPromotion       
-
-
-                <button
-                className="btn
-                btn-light">
-                All employees
-                </button>
-                <button
-                className="btn
-                btn-outline-light" >
-                Up for promotion
-                </button>
-                <button
-                className="btn
-                btn-outline-light">
-                Salary more than $1000
-                </button>
-                
-                */
